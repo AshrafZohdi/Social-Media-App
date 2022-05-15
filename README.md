@@ -21,15 +21,7 @@ A basic social media app with these features:
 > See [Build.md](Build.md)
 ## Contributing
 
-Any contributions would be appreciated. You could contribute by:
-
-- Reporting bugs
-- Patching bugs
-- Requesting features
-- Implementing features
-- Editing or adding further Documentation 
-- etc
-
+The Application Will be open source in the future once i get the basis of the webapp down
 ### TODO
 
 - Create BACKEND and FrontEnd
