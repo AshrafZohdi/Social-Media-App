@@ -25,8 +25,9 @@ The Application Will be open source in the future once i get the basis of the we
 
 ### TODO
 
-- Create Backend schemas. DONE
-- Begin Work on front End.
+- Create Authentication feature (Login / Register)
+- Create Home, SideBar & NavBar
+- Implement FeedView
 - Connect the client & Server sides.
 
 ## License
