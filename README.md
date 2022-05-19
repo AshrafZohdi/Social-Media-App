@@ -32,5 +32,8 @@ The Application Will be open source in the future once i get the basis of the we
 - Add pin Component
 - Create pin
 - Add Pin details
+- Create User Profile
+- Add Search & categories
+- Finally, Deploy
 
 ## License
