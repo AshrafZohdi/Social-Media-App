@@ -29,5 +29,8 @@ The Application Will be open source in the future once i get the basis of the we
 - Create Home, SideBar & NavBar
 - Implement FeedView
 - Connect the client & Server sides.
+- Add pin Component
+- Create pin
+- Add Pin details
 
 ## License
