@@ -11,13 +11,13 @@ import { client } from '../client';
 const Login = () => {
 
   const navigate = useNavigate();
-  
-  const responseGoogle = (response) => {
-    console.log(response); //Test Case
 
-    /*localStorage.setItem('user', JSON.stringify(response.profileObj));
+  const responseGoogle = (response) => {
+    //console.log(response); Test Case
+
+    localStorage.setItem('user', JSON.stringify(response.profileObj));
     
-    const { name, googleId, imageUrl} = response.profileObj;
+    const { name, googleId, imageUrl } = response.profileObj;
     
     const doc =  {
       _id: googleId,
@@ -29,7 +29,7 @@ const Login = () => {
     client.createIfNotExists(doc)
       .then(() => {
         navigate('/', { replace: true })
-      })*/
+      })
   }
   
   return (
