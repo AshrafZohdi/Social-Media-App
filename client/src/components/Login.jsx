@@ -9,7 +9,17 @@ import logo from '../assets/logowhite.png';
 const Login = () => {
 
   const responseGoogle = (response) => {
-    console.log(response);
+    //console.log(response); Test Case
+    localStorage.setItem('user', JSON.stringify(response.profileObj));
+    
+    const { name, googleId, imageUrl} = response.profileObj;
+    
+    const doc =  {
+      _id: googleId,
+      _type: 'user',
+      userName: name,
+      image: imageUrl
+    }
   }
   
   return (
