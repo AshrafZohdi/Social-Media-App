@@ -15,14 +15,14 @@ const Home = () => {
   const [user, setUser] = useState(null);
   const userInfo = localStorage.getItem('user') !== 'undefined' ? JSON.parse(localStorage.getItem('user')) : localStorage.clear;
   
-  useEffect(() => {
+  /*useEffect(() => {
     const query = userQuery(userinfo?.googleId);
 
     client.fetch(query)
       .then((data) => {
         setUser(data[0]);
       })
-  }, [])
+  }, [])*/
   
 
   return (
